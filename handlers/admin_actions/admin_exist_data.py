@@ -17,8 +17,7 @@ from database.func_auto import (path_dir_db,
                                 path_to_db,
                                 path_to_db_zip,
                                 path_to_log_dir,
-                                path_to_logs_zip,
-                                now)
+                                path_to_logs_zip)
 
 
 @permission

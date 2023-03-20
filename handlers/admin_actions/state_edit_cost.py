@@ -6,7 +6,7 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 from utils.decorators import permission_state
 from database.db_models import Course, UpdateCourses
 from markup.m_admin import edit_markup
-from handlers.admin_actions.admin_exist_data import now
+from database.func_auto import now
 
 
 class StatesEditCost(StatesGroup):
